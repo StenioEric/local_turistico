@@ -5,7 +5,7 @@
 
 :root {
     font-family: "Open Sans", sans-serif;
-    color: #573A37;
+    /* color: #573A37; */
 }
 
 body {
@@ -17,7 +17,6 @@ body {
     margin-right: 80px;
 }
 
-
 .linha-divisoria {
     border: none;
     border-top: 1px solid #ccc;
@@ -27,5 +26,37 @@ body {
 img {
     border-radius: 28px;  /* Adicionar o arredondamento da borda */
     width: 100%; /* imagem ocupa 100% do tamanho disponível pra ela */
-  }
-  
+}
+
+h1 {
+    font: bold 36px "Open Sans", sans-serif;
+    color: #1B1B1B;
+}
+
+h4 {
+    font: bold 16px "Open Sans", sans-serif;
+    color: #E95E10;
+}
+
+h2 {
+    font: bold 32px "Open Sans", sans-serif;
+    color: #1B1B1B;
+}
+
+h3 {
+    font: bold 28px "Open Sans", sans-serif;
+    color: #1B1B1B;
+}
+
+p {
+    font:16px "Open Sans", sans-serif;
+    color: #333333;
+}
+
+.subtitle {
+    margin-top: 24px;
+    font: italic  16px "Open Sans", sans-serif;
+    text-align: center;
+    color: #1B1B1B; /* Ajuste a cor conforme o design */
+}
+
