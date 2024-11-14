@@ -1,10 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+    color: #573A37;
+}
+
+body {
+    background-color: #F5F4F0;
+    /* border-color: #D9D9D9; */
+    margin-top: 88px;
+    margin-bottom: 88px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
 
 .linha-divisoria {
     border: none;
     border-top: 1px solid #ccc;
     margin: 20px 0;
   }
-  
+
 img {
     border-radius: 28px;  /* Adicionar o arredondamento da borda */
     width: 100%; /* imagem ocupa 100% do tamanho disponível pra ela */
