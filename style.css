@@ -5,12 +5,10 @@
 
 :root {
     font-family: "Open Sans", sans-serif;
-    /* color: #573A37; */
 }
 
 body {
     background-color: #F5F4F0;
-    /* border-color: #D9D9D9; */
     margin-top: 88px;
     margin-bottom: 88px;
     margin-left: 80px;
@@ -60,3 +58,39 @@ p {
     color: #1B1B1B; /* Ajuste a cor conforme o design */
 }
 
+#destaque {
+    color: #1B1B1B;
+    font-weight: bold;
+}
+
+.dest-lista{
+    color: #0C51A7;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.dest-lista1{
+    color: #591B98;
+    font-weight: bold;
+    font-size: 16px;   
+}
+
+.dest-lista2{
+    color: #e5245e;
+    font-weight: bold;
+    font-size: 16px;   
+}
+
+.dest-lista3{
+    color: #E95E10;
+    font-weight: bold;
+    font-size: 16px;   
+}
+
+ul li::marker {
+    color: #333333;
+}
+
+ul {
+    padding-left: 23px;
+}
