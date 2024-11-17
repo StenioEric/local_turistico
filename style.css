@@ -94,3 +94,9 @@ ul li::marker {
 ul {
     padding-left: 23px;
 }
+
+.description {
+    margin-top: 40px;
+    text-align: center;
+}
+
