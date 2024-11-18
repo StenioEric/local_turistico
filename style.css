@@ -2,7 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; /* Incluído no reset para consistência */
+  box-sizing: border-box;
 }
 
 /* Variáveis globais */
