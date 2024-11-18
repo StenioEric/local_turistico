@@ -1,158 +1,163 @@
 /* Reset padrão */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box; /* Incluído no reset para consistência */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Incluído no reset para consistência */
 }
 
 /* Variáveis globais */
 :root {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #F5F4F0;
 }
 
 /* Página principal */
 #page {
-    width: 1120px;
-    background-color: #F5F4F0;
-    margin: 80px auto 88px;
+  width: 1120px;
+  margin: 80px auto 88px;
+  border: 1px #D9D9D9;
 }
 
 #page h4 {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 /* Títulos */
 h1, h2, h3, h4 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-    color: #1B1B1B;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #1B1B1B;
 }
 
 h1 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 h2 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 h3 {
-    font-size: 28px;
-    padding-left: 10px;
+  font-size: 28px;
+  padding-left: 10px;
+  margin-bottom: 4px;
 }
 
 h4 {
-    font-size: 16px;
-    color: #E95E10;
+  font-size: 16px;
+  color: #E95E10;
 }
 
 /* Parágrafo padrão */
 p {
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    color: #333333;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
 }
 
 #description-capa {
-    margin-top: 40px;
-    margin-bottom: 24px;
+  margin-top: 40px;
+  margin-bottom: 24px;
 }
 
 /* Subtítulos */
 .subtitle {
-    font-size: 16px;
-    font-style: italic; /* Muda estilo da fonte para itálico */
-    font-weight: 400;
-    text-align: center;
-    color: #333333;
-    margin-top: 24px;
+  font-size: 16px;
+  font-style: italic; 
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  margin-top: 24px;
 }
 
 #title-list {
-    margin-top: 64px;
-    margin-bottom: 18px;
+  margin-top: 64px;
+  margin-bottom: 18px;
 }
 
 #headline{
-    margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 .title-h2 {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .image {
-    margin-bottom: 20px;
-    margin-top: 48px;
+  margin-bottom: 20px;
+  margin-top: 48px;
 }
- 
+
 /* Destaques */
 #destaque {
-    color: #1B1B1B;
-    font-weight: bold;
+  color: #1B1B1B;
+  font-weight: bold;
 }
 
 /* Estilos de listas */
 ul {
-    padding-left: 10px; /* Ajusta o deslocamento dos bullets */
+  padding-left: 10px; /* Ajusta o deslocamento dos bullets */
 }
 
 ul li::marker {
-    color: #333333; /* Cor do bullet */
-    padding-left: 23px;
+  color: #333333; /* Cor do bullet */
+  padding-left: 23px;
 }
 
 .dest-lista, .dest-lista1, .dest-lista2, .dest-lista3 {
-    font-size: 16px;
-    font-weight: bold;
-    list-style-position: inside; /* Faz o ponto ficar dentro do container do <li> */
+  font-size: 16px;
+  font-weight: bold;
+  list-style-position: inside; /* Faz o ponto ficar dentro do container do <li> */
 }
 
 .dest-lista {
-    color: #0C51A7;
+  color: #0C51A7;
 }
 
 .dest-lista1 {
-    color: #591B98;
+  color: #591B98;
 }
 
 .dest-lista2 {
-    color: #e5245e;
+  color: #e5245e;
 }
 
 .dest-lista3 {
-    color: #E95E10;
+  color: #E95E10;
 }
 
 /* Imagens */
 img {
-    border-radius: 28px; /* Arredondamento das bordas */
-    width: 100%; /*Imagem ocupa o tamanho total do container*/
-    object-fit: cover;  /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
+  border-radius: 28px; /* Arredondamento das bordas */
+  width: 100%; /*Imagem ocupa o tamanho total do container*/
+  object-fit: cover;  /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
 }
 
 .description{
-    margin-top: 40px;
-    text-align: center;
+  margin-top: 40px;
+  text-align: center;
 }
 
 footer {
-    font-family: "Alice", serif;
-    font-size: 16px;
-    text-align: center;
-    padding-bottom: 48px;
-    
+  font-family: "Alice", serif;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 48px;
+  
 }
 
 footer img {
-    vertical-align: middle;
-    height: 20px;
-    width: 20px;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
 }
 
 /* Linha divisória */
 .linha-divisoria {
-    border: none;
-    border-top: 1px solid #ccc;
-    margin-top: 40px;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
 }
