@@ -10,10 +10,6 @@
     font-family: "Open Sans", sans-serif;
 }
 
-/* Estilos do corpo */
-/* body {
-} */
-
 /* Página principal */
 #page {
     width: 1120px;
@@ -38,6 +34,7 @@ h2 {
 
 h3 {
     font-size: 28px;
+    padding-left: 10px;
 }
 
 h4 {
@@ -52,6 +49,11 @@ p {
     color: #333333;
 }
 
+#description-capa {
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
 /* Subtítulos */
 .subtitle {
     margin-top: 24px;
@@ -61,6 +63,24 @@ p {
     color: #1B1B1B;
 }
 
+#title-list {
+    margin-top: 64px;
+    margin-bottom: 18px;
+}
+
+#headline{
+    margin-bottom: 2px;
+}
+
+.title-h2 {
+    margin-bottom: 8px;
+}
+
+.image {
+    margin-bottom: 20px;
+    margin-top: 48px;
+}
+ 
 /* Destaques */
 #destaque {
     color: #1B1B1B;
@@ -69,16 +89,18 @@ p {
 
 /* Estilos de listas */
 ul {
-    padding-left: 23px; /* Ajusta o deslocamento dos bullets */
+    padding-left: 10px; /* Ajusta o deslocamento dos bullets */
 }
 
 ul li::marker {
     color: #333333; /* Cor do bullet */
+    padding-left: 23px;
 }
 
 .dest-lista, .dest-lista1, .dest-lista2, .dest-lista3 {
     font-size: 16px;
     font-weight: bold;
+    list-style-position: inside; /* Faz o ponto ficar dentro do container do <li> */
 }
 
 .dest-lista {
@@ -100,11 +122,11 @@ ul li::marker {
 /* Imagens */
 img {
     border-radius: 28px; /* Arredondamento das bordas */
-    width: 100%; /* Imagem ocupa o tamanho total do container */
+    width: 100%; /*Imagem ocupa o tamanho total do container*/
+    object-fit: cover;  /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
 }
 
-/* Descrição centralizada */
-.description {
+.description{
     margin-top: 40px;
     text-align: center;
 }
@@ -113,5 +135,5 @@ img {
 .linha-divisoria {
     border: none;
     border-top: 1px solid #ccc;
-    margin: 20px 0;
+    margin-top: 40px;
 }
